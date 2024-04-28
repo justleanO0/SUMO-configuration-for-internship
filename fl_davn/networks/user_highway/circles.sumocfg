@@ -1,0 +1,13 @@
+<configuration>
+	<input>
+		<net-file value="circless.net.xml"/>
+		<route-files value="circles.rou.xml"/>
+		<additional-files value="circles.add.xml"/>
+		<log value="log.txt"/>
+		<verbose value="true"/>
+	</input>
+
+    <time>
+		<step-length value="0.4"/>
+    </time>
+</configuration>

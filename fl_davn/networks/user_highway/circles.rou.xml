@@ -1,0 +1,21 @@
+<routes>
+	<vType id="car_normal" maxSpeed="25" speedFactor="1" speedDev="0.1"/>
+	<vType id="car_abnormal" maxSpeed="30" speedFactor="1" speedDev="0.3" lcCooperative="0.1" lcKeepRight="0" lcSpeedGain="20"/>
+	<vType id="car1" accel="0.7" decel="4.5" sigma="0.5" length="3" maxSpeed="25" vClass="passenger" minGap="0" carFollowModel="Krauss" lcSpeedGain="20"/>
+	<vType id="car2" accel="0.5" decel="3" sigma="0.5" length="3.5" maxSpeed="24" vClass="passenger" minGap="0" carFollowModel="Krauss"/>
+	<vType id="car3" accel="0.8" decel="4.5" sigma="0.5" length="3" maxSpeed="26" vClass="passenger" minGap="0" carFollowModel="Krauss" lcSpeedGain="20"/>
+	<vType id="car4" accel="0.8" decel="4.5" sigma="0.5" length="4" maxSpeed="28" vClass="passenger" minGap="0" carFollowModel="Krauss"/>
+	<vType id="car5" accel="0.6" decel="4.5" sigma="0.5" length="3" maxSpeed="30" vClass="passenger" minGap="0" carFollowModel="Krauss"/>
+	<vType id="car6" accel="0.9" decel="5" sigma="0.5" length="3" maxSpeed="28" vClass="passenger" minGap="0" carFollowModel="Krauss"  lcSpeedGain="20"/>
+	<vType id="car7" accel="0.4" decel="3.7" sigma="0.5" length="3.7" maxSpeed="28" vClass="passenger" minGap="0" carFollowModel="Krauss"/>
+	<vType id="car8" accel="0.8" decel="4.5" sigma="0.5" length="4.2" maxSpeed="27" vClass="passenger" minGap="0" carFollowModel="Krauss"/>
+	
+	<vType id="track" accel="0.4" decel="2.0" sigma="0.5" length="12" maxSpeed="22" vClass="passenger" minGap="0" carFollowModel="Krauss" guiShape="bus" />
+	<vType id="bus" accel="0.5" decel="3.5" sigma="0.5" length="10" maxSpeed="23" vClass="passenger" minGap="0" carFollowModel="Krauss" guiShape="bus" />
+	<vType id="ambulance" accel="0.6" decel="3.5" sigma="0.5" length="6" maxSpeed="26" vClass="passenger" minGap="0" carFollowModel="Krauss" guiShape="bus" lcCooperative="0"/>
+	
+	<vType id="ego" accel="0.8" decel="4.5" sigma="0.5" length="3" maxSpeed="28" vClass="passenger" minGap="0" carFollowModel="Krauss" color="255,255,0" lcSpeedGain="20"/>
+	
+	<route id="route_0" edges="edge12 edge13 edge0 edge1 edge2 edge3 edge4 edge5 edge6 edge7 edge8 edge9 edge10 edge11"/>
+
+</routes>
