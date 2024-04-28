@@ -12,10 +12,13 @@ Name the SUMO installation directory as "sumo-1.8.0"
 
 Environment variables need to be added.
 
-To train, simply run `test.py`.
+To train, simply run `clients4_converge.py`.
 
-To test, simply run `test_demo.py`.
+If the code starts to run without an error, it means the connection between SUMO and Python has been established correctly. The model trained in this code is a four-agent federated learning global model. For the internship, you should replace the model with your own model.
 
+Pay attention to the "\gym_sumo\envs\sumo_env.py" file, especially the "SumoEnv(gym.Env)" class. It contains all necessary configurations of the road.
+
+---------
 If you encounter the error: "Error: Cannot re-register id: gym_sumo-v0",
 execute the following code:
 ```
